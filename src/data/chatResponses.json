@@ -1,0 +1,75 @@
+{
+  "prompts": [
+    {
+      "id": "prompt-001",
+      "text": "What's my biggest coaching opportunity?",
+      "icon": "target",
+      "response": {
+        "text": "Based on analysis of your recent calls and performance metrics, your biggest opportunity is **improving your VB pitch timing**.\n\n**The Gap:** You're introducing Visibility Boosters at an average of 12 minutes into calls, while top performers introduce them within the first 5 minutes.\n\n**Why it matters:** Partners who hear about VBs early in the conversation show 34% higher enrollment rates. Your partners have an average of 2.3 VB-eligible properties not currently enrolled.\n\n**Recommended Action:** In your next 5 renewal calls, try introducing VBs when reviewing the partner's current performance metrics. For example: 'Your bookings are up 8% this quarter. Many partners in similar positions have amplified that growth with Visibility Boosters - can I show you how?'\n\n**Expected Impact:** +$42K NBV per quarter if adoption matches team average.",
+        "sources": [
+          { "type": "ZRA Calls", "label": "8 calls analyzed (Jan 1-13)" },
+          { "type": "Performance Data", "label": "VB adoption metrics" },
+          { "type": "Benchmark", "label": "Top performer analysis" }
+        ],
+        "confidence": 87
+      }
+    },
+    {
+      "id": "prompt-002",
+      "text": "Why did cancellations spike for Mountain View Lodge?",
+      "icon": "chart-down",
+      "response": {
+        "text": "I analyzed the data for Mountain View Lodge and found several contributing factors to their December cancellation spike (+15%):\n\n**Primary Cause: Policy Display Issue**\nA bug in the booking flow caused their flexible cancellation policy to display incorrectly. Guests saw 'Non-refundable' when the policy was actually 'Free cancellation until 48 hours before.' This led to:\n- 23 guests canceling immediately after booking\n- 12 support tickets about policy confusion\n\n**Secondary Factor: Seasonal Pattern**\nMountain View typically sees higher cancellations in early January as holiday travelers change plans. However, this year's spike is 8% above their normal seasonal increase.\n\n**Current Status:**\n- Bug reported to product team (ETA: Jan 22 fix)\n- Partner received direct support contact\n- Recommended compensation proposal sent\n\n**Next Steps:** Schedule follow-up call for Jan 15 to update on bug fix status and discuss retention strategies.",
+        "sources": [
+          { "type": "ZRA Call", "label": "Jan 12 - Issue Resolution call" },
+          { "type": "Support Tickets", "label": "12 related tickets" },
+          { "type": "Booking Data", "label": "Cancellation analytics" }
+        ],
+        "confidence": 92
+      }
+    },
+    {
+      "id": "prompt-003",
+      "text": "Draft a call script focused on VB adoption",
+      "icon": "document",
+      "response": {
+        "text": "Here's a personalized call script for VB discussions based on your successful conversations:\n\n---\n\n**Opening (After rapport building):**\n\"I've been looking at your performance data, and I'm excited about what I'm seeing. Your [mention specific metric - e.g., 'booking volume is up 12%']. I want to talk about how we can amplify that momentum.\"\n\n**Transition to VB:**\n\"Have you explored our Visibility Booster program? Many of our partners with similar performance profiles have used it to capture even more of that demand.\"\n\n**If partner shows interest:**\n\"Let me show you what this looked like for [similar property]. They saw a [X]% increase in page views within the first week, which translated to [Y] additional bookings that month.\"\n\n**Handling common objections:**\n\n*'It's too expensive':*\n\"I understand budget is a consideration. The average ROI we're seeing is 3.2x - meaning for every dollar invested, partners are seeing $3.20 back in additional bookings. Would it help to start with a single property as a test?\"\n\n*'I want to see results first':*\n\"That's fair. I can share case studies from properties similar to yours. I also recommend starting with your highest-potential property - that way you see results quickly and can make a data-driven decision about expanding.\"\n\n**Close:**\n\"Based on your [property count] eligible properties, if we matched our average results, you could be looking at an additional [estimated revenue]. Should I walk you through the enrollment for [specific property]?\"\n\n---\n\nThis script incorporates language patterns from your 3 highest-converting VB calls.",
+        "sources": [
+          { "type": "Your Calls", "label": "3 successful VB enrollments" },
+          { "type": "Best Practices", "label": "Top performer scripts" },
+          { "type": "Partner Data", "label": "Objection frequency analysis" }
+        ],
+        "confidence": 85
+      }
+    },
+    {
+      "id": "prompt-004",
+      "text": "How is my team performing this week?",
+      "icon": "users",
+      "response": {
+        "text": "Here's your team performance summary for the week of January 6-13:\n\n**Overall Health: Good** (6 of 8 on track)\n\n**Top Performers:**\n- **Sarah Chen** - 12 calls, 89% positive sentiment, 2 VB enrollments\n- **Elena Rodriguez** - 9 calls, closing strong pricing negotiations\n\n**Needs Attention:**\n- **Marcus Johnson** - 3 partners showing declining engagement, sentiment trending negative. Recommend 1:1 coaching session on objection handling.\n- **David Kim** - Multiple negative sentiment calls this week. May benefit from call shadowing with Sarah.\n\n**Key Metrics:**\n| Metric | This Week | Last Week | Trend |\n|--------|-----------|-----------|-------|\n| Total Calls | 47 | 52 | ↓ |\n| Avg Sentiment | 68% | 65% | ↑ |\n| VB Enrollments | 4 | 3 | ↑ |\n| Issues Escalated | 3 | 5 | ↓ |\n\n**Recommended Focus:**\n1. Schedule coaching session with Marcus this week\n2. Pair David with Sarah for call review\n3. Recognize Elena's pricing win in team meeting\n\n**Coaching Coverage:** 75% of team has active coaching items (6/8)",
+        "sources": [
+          { "type": "ZRA Data", "label": "47 calls this week" },
+          { "type": "Salesforce", "label": "Team activity metrics" },
+          { "type": "Sentiment Analysis", "label": "Call-level scoring" }
+        ],
+        "confidence": 94
+      }
+    },
+    {
+      "id": "prompt-005",
+      "text": "What partners should I prioritize this week?",
+      "icon": "priority",
+      "response": {
+        "text": "Based on engagement signals, sentiment trends, and revenue potential, here are your priority partners for this week:\n\n**🔴 Urgent - Risk Mitigation:**\n\n1. **Mountain View Lodge**\n   - Why: Unresolved cancellation issue, negative sentiment\n   - Action: Follow up on bug fix status, schedule check-in\n   - Revenue at risk: $156K annual\n\n2. **Alpine Ski Lodge**\n   - Why: Integration issues causing overbookings\n   - Action: Daily monitoring until resolved\n   - Revenue at risk: $89K annual\n\n**🟡 Important - Growth Opportunity:**\n\n3. **Grand Plaza Hotel**\n   - Why: Pending Members-Only decision (high potential)\n   - Action: Follow up by Jan 17 as promised\n   - Potential uplift: +$45K\n\n4. **Coastal Inn & Suites**\n   - Why: Warm lead on content refresh\n   - Action: Send ROI data, schedule content audit\n   - Potential uplift: +$28K\n\n**🟢 Maintain - Positive Momentum:**\n\n5. **Urban Boutique Hotel**\n   - Why: Strategic planning session went well\n   - Action: Deliver 2025 roadmap document\n   - Potential: Flagship partner for XLR pilot\n\nWould you like me to draft follow-up emails for any of these partners?",
+        "sources": [
+          { "type": "Risk Model", "label": "Churn prediction scores" },
+          { "type": "Recent Calls", "label": "Sentiment and action items" },
+          { "type": "Revenue Data", "label": "Partner value analysis" }
+        ],
+        "confidence": 89
+      }
+    }
+  ],
+  "welcomeMessage": "Hi Ben! I'm Atlas, your AI coaching assistant. I can help you understand your performance, prepare for calls, and identify opportunities. What would you like to explore?"
+}

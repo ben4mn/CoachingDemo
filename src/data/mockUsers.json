@@ -1,0 +1,235 @@
+{
+  "currentUser": {
+    "id": "user-001",
+    "name": "Ben Foreman",
+    "role": "Market Manager",
+    "region": "EMEA",
+    "avatar": "BF",
+    "metrics": {
+      "bookings": 2847,
+      "bookingsTrend": "up",
+      "bookingsChange": 12,
+      "cancellationRate": 6.8,
+      "cancellationTrend": "down",
+      "cancellationChange": -2.1,
+      "revPlus": 78,
+      "revPlusTrend": "up",
+      "vbAdoption": 72,
+      "vbAdoptionTrend": "up",
+      "offerStrength": 84
+    },
+    "coachingItems": [
+      {
+        "id": "coach-001",
+        "priority": 1,
+        "type": "growth",
+        "gap": "VB pitch rate 18% below top performers",
+        "action": "Introduce Visibility Boosters earlier in renewal calls - within first 5 minutes",
+        "expectedImpact": "+$42K NBV / quarter",
+        "reasonToBelieve": "Top performers who pitch VBs early see 34% higher adoption. Your partners have avg. 2.3 VB-eligible properties not enrolled.",
+        "status": "active"
+      },
+      {
+        "id": "coach-002",
+        "priority": 2,
+        "type": "efficiency",
+        "gap": "Cancellation discussion happens late in calls",
+        "action": "Address cancellation policies proactively when reviewing performance metrics",
+        "expectedImpact": "-2.4% cancellation rate",
+        "reasonToBelieve": "Partners with early cancellation discussions show 40% lower churn. 6 of your partners flagged cancellation concerns in recent calls.",
+        "status": "active"
+      },
+      {
+        "id": "coach-003",
+        "priority": 3,
+        "type": "satisfaction",
+        "gap": "Partner objections not fully resolved",
+        "action": "Use the 'acknowledge-explore-resolve' framework when partners raise pricing concerns",
+        "expectedImpact": "+8 NPS points",
+        "reasonToBelieve": "Sentiment analysis shows pricing objections left unresolved in 4 recent calls. Resolved objections correlate with 2x higher satisfaction.",
+        "status": "active"
+      }
+    ],
+    "previousCoaching": [
+      {
+        "id": "prev-001",
+        "item": "Increase call preparation time",
+        "startDate": "2024-12-15",
+        "status": "improved",
+        "change": "+15%"
+      },
+      {
+        "id": "prev-002",
+        "item": "Follow up within 24 hours",
+        "startDate": "2024-12-20",
+        "status": "improved",
+        "change": "+22%"
+      }
+    ],
+    "strengths": [
+      "Strong rapport building - sentiment scores 15% above avg",
+      "Excellent product knowledge - fewer clarification requests",
+      "Consistent follow-up cadence"
+    ],
+    "quartile": 2,
+    "lastCoached": "2025-01-10"
+  },
+  "teamMembers": [
+    {
+      "id": "user-002",
+      "name": "Sarah Chen",
+      "role": "Market Manager",
+      "region": "APAC",
+      "avatar": "SC",
+      "metrics": {
+        "bookings": 3241,
+        "bookingsTrend": "up",
+        "cancellationRate": 5.2,
+        "cancellationTrend": "down",
+        "vbAdoption": 81,
+        "offerStrength": 89
+      },
+      "topCoachingItem": "Expand XLR program discussions with mid-tier partners",
+      "sentiment": "positive",
+      "quartile": 1,
+      "lastCoached": "2025-01-12",
+      "coachingStatus": "on-track",
+      "riskLevel": "low"
+    },
+    {
+      "id": "user-003",
+      "name": "Marcus Johnson",
+      "role": "Market Manager",
+      "region": "EMEA",
+      "avatar": "MJ",
+      "metrics": {
+        "bookings": 1856,
+        "bookingsTrend": "down",
+        "cancellationRate": 9.1,
+        "cancellationTrend": "up",
+        "vbAdoption": 54,
+        "offerStrength": 67
+      },
+      "topCoachingItem": "Address partner churn risk - 3 accounts showing declining engagement",
+      "sentiment": "negative",
+      "quartile": 4,
+      "lastCoached": "2025-01-08",
+      "coachingStatus": "needs-attention",
+      "riskLevel": "high"
+    },
+    {
+      "id": "user-004",
+      "name": "Priya Patel",
+      "role": "Market Manager",
+      "region": "APAC",
+      "avatar": "PP",
+      "metrics": {
+        "bookings": 2654,
+        "bookingsTrend": "up",
+        "cancellationRate": 7.3,
+        "cancellationTrend": "stable",
+        "vbAdoption": 69,
+        "offerStrength": 76
+      },
+      "topCoachingItem": "Improve VB pitch conversion - good volume, lower close rate",
+      "sentiment": "neutral",
+      "quartile": 2,
+      "lastCoached": "2025-01-11",
+      "coachingStatus": "in-progress",
+      "riskLevel": "medium"
+    },
+    {
+      "id": "user-005",
+      "name": "James Wilson",
+      "role": "Market Manager",
+      "region": "AMER",
+      "avatar": "JW",
+      "metrics": {
+        "bookings": 2198,
+        "bookingsTrend": "stable",
+        "cancellationRate": 8.4,
+        "cancellationTrend": "up",
+        "vbAdoption": 62,
+        "offerStrength": 71
+      },
+      "topCoachingItem": "Reduce call handle time while maintaining quality",
+      "sentiment": "neutral",
+      "quartile": 3,
+      "lastCoached": "2025-01-05",
+      "coachingStatus": "needs-attention",
+      "riskLevel": "medium"
+    },
+    {
+      "id": "user-006",
+      "name": "Elena Rodriguez",
+      "role": "Market Manager",
+      "region": "LATAM",
+      "avatar": "ER",
+      "metrics": {
+        "bookings": 2987,
+        "bookingsTrend": "up",
+        "cancellationRate": 6.1,
+        "cancellationTrend": "down",
+        "vbAdoption": 77,
+        "offerStrength": 82
+      },
+      "topCoachingItem": "Scale successful pricing negotiation techniques to team",
+      "sentiment": "positive",
+      "quartile": 1,
+      "lastCoached": "2025-01-13",
+      "coachingStatus": "on-track",
+      "riskLevel": "low"
+    },
+    {
+      "id": "user-007",
+      "name": "David Kim",
+      "role": "Market Manager",
+      "region": "APAC",
+      "avatar": "DK",
+      "metrics": {
+        "bookings": 1654,
+        "bookingsTrend": "down",
+        "cancellationRate": 10.2,
+        "cancellationTrend": "up",
+        "vbAdoption": 48,
+        "offerStrength": 59
+      },
+      "topCoachingItem": "Rebuild partner relationships - multiple negative sentiment calls",
+      "sentiment": "negative",
+      "quartile": 4,
+      "lastCoached": "2025-01-09",
+      "coachingStatus": "needs-attention",
+      "riskLevel": "high"
+    },
+    {
+      "id": "user-008",
+      "name": "Anna Schmidt",
+      "role": "Market Manager",
+      "region": "EMEA",
+      "avatar": "AS",
+      "metrics": {
+        "bookings": 2456,
+        "bookingsTrend": "up",
+        "cancellationRate": 7.8,
+        "cancellationTrend": "stable",
+        "vbAdoption": 65,
+        "offerStrength": 74
+      },
+      "topCoachingItem": "Increase proactive outreach to dormant accounts",
+      "sentiment": "neutral",
+      "quartile": 2,
+      "lastCoached": "2025-01-07",
+      "coachingStatus": "in-progress",
+      "riskLevel": "low"
+    }
+  ],
+  "teamStats": {
+    "totalMembers": 8,
+    "activeCoaching": 6,
+    "coachingCoverage": 75,
+    "oppiesRecommended": 24,
+    "oppiesCaptured": 18,
+    "avgQuartile": 2.4,
+    "nbvImpact": "$287K"
+  }
+}

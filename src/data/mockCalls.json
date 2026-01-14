@@ -1,0 +1,262 @@
+{
+  "calls": [
+    {
+      "id": "call-001",
+      "partner": "Sunset Beach Resort & Spa",
+      "partnerLogo": "SB",
+      "date": "2025-01-13",
+      "time": "10:30 AM",
+      "duration": "23 min",
+      "type": "Quarterly Review",
+      "sentiment": "neutral",
+      "sentimentScore": 62,
+      "topics": ["pricing", "VB", "competitive"],
+      "summary": "Partner expressed concerns about rate parity with OTA competitors. Discussed VB program benefits and showed ROI calculator, but partner wants to see concrete numbers from similar properties before committing. Follow-up scheduled for next week with case studies.",
+      "keyQuotes": [
+        "We need to see concrete numbers before we invest more in visibility.",
+        "Our competitors on Booking.com seem to get better placement.",
+        "The VB concept makes sense, but prove it works for boutique hotels."
+      ],
+      "objections": [
+        {
+          "topic": "ROI uncertainty",
+          "resolved": false,
+          "notes": "Partner wants case studies from similar-sized properties"
+        },
+        {
+          "topic": "Competitor pricing pressure",
+          "resolved": true,
+          "notes": "Explained rate parity tools and monitoring dashboard"
+        }
+      ],
+      "actionItems": [
+        "Send VB case studies for boutique hotels in EMEA",
+        "Schedule follow-up call for Jan 20",
+        "Prepare custom ROI projection"
+      ],
+      "coachingInsight": "Consider leading with success metrics earlier in the call. Partner engagement increased significantly when specific numbers were mentioned."
+    },
+    {
+      "id": "call-002",
+      "partner": "Mountain View Lodge",
+      "partnerLogo": "MV",
+      "date": "2025-01-12",
+      "time": "2:15 PM",
+      "duration": "31 min",
+      "type": "Issue Resolution",
+      "sentiment": "negative",
+      "sentimentScore": 38,
+      "topics": ["service", "cancellation", "support"],
+      "summary": "Partner frustrated about recent spike in cancellations (up 15% in December). Attributed to unclear policies displayed to guests. Also raised concerns about slow support response times. Escalated support ticket and provided direct contact for urgent issues.",
+      "keyQuotes": [
+        "We've lost thousands in revenue from these cancellations.",
+        "I've been waiting 5 days for a response on my support ticket.",
+        "If this doesn't improve, we'll have to reconsider our partnership."
+      ],
+      "objections": [
+        {
+          "topic": "Cancellation policy display",
+          "resolved": false,
+          "notes": "Logged bug report with product team - ETA 2 weeks"
+        },
+        {
+          "topic": "Support response time",
+          "resolved": true,
+          "notes": "Escalated ticket, provided direct contact"
+        }
+      ],
+      "actionItems": [
+        "Follow up on bug fix status by Jan 15",
+        "Check on partner satisfaction in 1 week",
+        "Review cancellation trends for similar properties"
+      ],
+      "coachingInsight": "Acknowledge frustration more explicitly before moving to solutions. Sentiment improved when partner felt heard."
+    },
+    {
+      "id": "call-003",
+      "partner": "Grand Plaza Hotel",
+      "partnerLogo": "GP",
+      "date": "2025-01-12",
+      "time": "9:00 AM",
+      "duration": "18 min",
+      "type": "VB Enrollment",
+      "sentiment": "positive",
+      "sentimentScore": 87,
+      "topics": ["VB", "growth", "promotion"],
+      "summary": "Successful VB enrollment call. Partner excited about upcoming spring season and wants to maximize visibility. Enrolled in Premium VB package for March-May. Also discussed Members-Only deals program - partner will review internally and confirm by end of week.",
+      "keyQuotes": [
+        "This is exactly what we need for the spring rush.",
+        "The ROI numbers from last year's participants are impressive.",
+        "Let's do the premium package - we want to be aggressive this year."
+      ],
+      "objections": [],
+      "actionItems": [
+        "Send VB confirmation and calendar",
+        "Follow up on Members-Only decision by Jan 17",
+        "Share spring marketing calendar"
+      ],
+      "coachingInsight": "Excellent use of seasonal timing in positioning. Reference this approach for other spring-focused properties."
+    },
+    {
+      "id": "call-004",
+      "partner": "Coastal Inn & Suites",
+      "partnerLogo": "CI",
+      "date": "2025-01-11",
+      "time": "11:45 AM",
+      "duration": "27 min",
+      "type": "Quarterly Review",
+      "sentiment": "neutral",
+      "sentimentScore": 55,
+      "topics": ["content", "photos", "competitive"],
+      "summary": "Review focused on content optimization. Partner's listing has outdated photos (3+ years old). Discussed content refresh program and photo shoot subsidies. Partner hesitant about cost but acknowledged photos need updating. Sent competitor comparison showing impact of fresh content.",
+      "keyQuotes": [
+        "I know the photos are old, but a professional shoot is expensive.",
+        "What kind of ROI can I expect from new photos?",
+        "Our competitors do look more modern in search results."
+      ],
+      "objections": [
+        {
+          "topic": "Photo shoot cost",
+          "resolved": false,
+          "notes": "Sent info about content refresh subsidy program"
+        }
+      ],
+      "actionItems": [
+        "Send content refresh program details",
+        "Provide ROI data on photo updates",
+        "Schedule content audit call"
+      ],
+      "coachingInsight": "Good job surfacing competitive angle. Partner was more receptive when seeing side-by-side comparison."
+    },
+    {
+      "id": "call-005",
+      "partner": "Urban Boutique Hotel",
+      "partnerLogo": "UB",
+      "date": "2025-01-10",
+      "time": "3:30 PM",
+      "duration": "42 min",
+      "type": "Strategic Planning",
+      "sentiment": "positive",
+      "sentimentScore": 79,
+      "topics": ["growth", "XLR", "pricing", "VB"],
+      "summary": "Comprehensive strategy session for 2025. Partner committed to 15% growth target. Agreed on multi-pronged approach: XLR program enrollment, dynamic pricing implementation, and Q2 VB campaign. Partner very engaged - took notes throughout and asked detailed questions.",
+      "keyQuotes": [
+        "We're all-in on growth this year.",
+        "The XLR program sounds like exactly what we need.",
+        "Let's build out the full calendar - I want to plan ahead."
+      ],
+      "objections": [],
+      "actionItems": [
+        "Prepare 2025 partnership roadmap",
+        "Start XLR enrollment process",
+        "Schedule dynamic pricing training session"
+      ],
+      "coachingInsight": "Excellent strategic conversation. The prepared 2025 planning framework resonated strongly - recommend using with other growth-focused partners."
+    },
+    {
+      "id": "call-006",
+      "partner": "Riverside Resort",
+      "partnerLogo": "RR",
+      "date": "2025-01-10",
+      "time": "10:00 AM",
+      "duration": "15 min",
+      "type": "Quick Check-in",
+      "sentiment": "positive",
+      "sentimentScore": 72,
+      "topics": ["performance", "satisfaction"],
+      "summary": "Brief check-in call. Partner satisfied with December performance (+12% YoY bookings). No major issues raised. Confirmed interest in upcoming rate optimization webinar. Quick, efficient call.",
+      "keyQuotes": [
+        "December was great for us - best in three years.",
+        "Keep up the good work!",
+        "Sign me up for that webinar."
+      ],
+      "objections": [],
+      "actionItems": [
+        "Register partner for rate optimization webinar",
+        "Send December performance report"
+      ],
+      "coachingInsight": "Good relationship maintenance. Short check-ins like this help sustain positive partnerships."
+    },
+    {
+      "id": "call-007",
+      "partner": "Alpine Ski Lodge",
+      "partnerLogo": "AS",
+      "date": "2025-01-09",
+      "time": "4:00 PM",
+      "duration": "35 min",
+      "type": "Issue Resolution",
+      "sentiment": "negative",
+      "sentimentScore": 41,
+      "topics": ["technical", "integration", "support"],
+      "summary": "Partner experiencing channel manager integration issues for the past 2 weeks. Bookings not syncing properly, causing overbooking incidents. Very frustrated. Escalated to technical team with high priority. Offered temporary manual support until resolved.",
+      "keyQuotes": [
+        "We've had three overbookings this week alone.",
+        "This is damaging our reputation with guests.",
+        "I need this fixed immediately or we'll have to pause our listing."
+      ],
+      "objections": [
+        {
+          "topic": "Integration reliability",
+          "resolved": false,
+          "notes": "High-priority escalation to tech team"
+        }
+      ],
+      "actionItems": [
+        "Daily check-ins until issue resolved",
+        "Coordinate with tech team on fix timeline",
+        "Prepare compensation proposal if needed"
+      ],
+      "coachingInsight": "Consider acknowledging the business impact more explicitly. Partner de-escalated when the severity was fully recognized."
+    },
+    {
+      "id": "call-008",
+      "partner": "City Center Apartments",
+      "partnerLogo": "CC",
+      "date": "2025-01-09",
+      "time": "11:00 AM",
+      "duration": "22 min",
+      "type": "Quarterly Review",
+      "sentiment": "neutral",
+      "sentimentScore": 58,
+      "topics": ["pricing", "competitive", "content"],
+      "summary": "Mixed review. Bookings stable but partner feels pricing is too aggressive in their market. Discussed competitor analysis and rate positioning. Partner will test a 5% rate increase for February as a trial. Also suggested content refresh for 2 properties.",
+      "keyQuotes": [
+        "I think we're leaving money on the table with these rates.",
+        "Let's try a small increase and see what happens.",
+        "The market here is getting more competitive every month."
+      ],
+      "objections": [
+        {
+          "topic": "Pricing strategy disagreement",
+          "resolved": true,
+          "notes": "Agreed on controlled test approach"
+        }
+      ],
+      "actionItems": [
+        "Set up February rate test",
+        "Monitor conversion rate impact",
+        "Send content refresh recommendations"
+      ],
+      "coachingInsight": "Good job finding middle ground on pricing disagreement. The test approach gave partner control while maintaining relationship."
+    }
+  ],
+  "aggregatedInsights": {
+    "topThemes": [
+      { "theme": "Pricing/Competitive", "count": 5, "percentage": 62 },
+      { "theme": "VB/Visibility", "count": 4, "percentage": 50 },
+      { "theme": "Content Quality", "count": 3, "percentage": 37 },
+      { "theme": "Technical Issues", "count": 2, "percentage": 25 },
+      { "theme": "Cancellations", "count": 2, "percentage": 25 }
+    ],
+    "sentimentDistribution": {
+      "positive": 37,
+      "neutral": 38,
+      "negative": 25
+    },
+    "avgCallDuration": "26 min",
+    "objectionsRaised": 8,
+    "objectionsResolved": 4,
+    "actionItemsGenerated": 24,
+    "actionItemsCompleted": 16
+  }
+}
