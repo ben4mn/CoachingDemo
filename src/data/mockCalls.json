@@ -34,7 +34,30 @@
         "Schedule follow-up call for Jan 20",
         "Prepare custom ROI projection"
       ],
-      "coachingInsight": "Consider leading with success metrics earlier in the call. Partner engagement increased significantly when specific numbers were mentioned."
+      "coachingInsight": "Consider leading with success metrics earlier in the call. Partner engagement increased significantly when specific numbers were mentioned.",
+      "postCallData": {
+        "crmFields": [
+          { "field": "Sentiment", "value": "Neutral", "selected": true },
+          { "field": "Last Contact", "value": "2025-01-13", "selected": true },
+          { "field": "Topics Discussed", "value": "pricing, VB, competitive", "selected": true },
+          { "field": "Open Objections", "value": "ROI uncertainty", "selected": true },
+          { "field": "Next Action", "value": "Send case studies", "selected": true }
+        ],
+        "draftEmail": {
+          "to": "partner@sunsetbeachresort.com",
+          "subject": "Follow-up: VB Program Discussion & Case Studies",
+          "body": "Hi [Partner Name],\n\nThank you for your time today discussing how Visibility Boosters can help Sunset Beach Resort compete more effectively.\n\nAs promised, I'm attaching:\n• VB case studies from similar boutique hotels in EMEA\n• Custom ROI projection for your property\n\nI'd love to walk you through these numbers on our follow-up call scheduled for January 20th.\n\nBest regards,\nBen",
+          "contentLinks": [
+            { "title": "EMEA Boutique Hotel Case Studies", "type": "Seismic", "url": "#" },
+            { "title": "VB ROI Calculator", "type": "Tool", "url": "#" }
+          ]
+        },
+        "structuredOutput": {
+          "callOutcome": "Follow-up Required",
+          "partnerEngagement": "Medium",
+          "nextSteps": ["Send case studies by Jan 14", "Prepare custom ROI", "Follow-up call Jan 20"]
+        }
+      }
     },
     {
       "id": "call-002",
@@ -70,7 +93,29 @@
         "Check on partner satisfaction in 1 week",
         "Review cancellation trends for similar properties"
       ],
-      "coachingInsight": "Acknowledge frustration more explicitly before moving to solutions. Sentiment improved when partner felt heard."
+      "coachingInsight": "Acknowledge frustration more explicitly before moving to solutions. Sentiment improved when partner felt heard.",
+      "postCallData": {
+        "crmFields": [
+          { "field": "Sentiment", "value": "Negative", "selected": true },
+          { "field": "Last Contact", "value": "2025-01-12", "selected": true },
+          { "field": "Topics Discussed", "value": "service, cancellation, support", "selected": true },
+          { "field": "Escalation Status", "value": "Active - High Priority", "selected": true },
+          { "field": "Risk Level", "value": "High", "selected": true }
+        ],
+        "draftEmail": {
+          "to": "partner@mountainviewlodge.com",
+          "subject": "Action Taken: Your Support Ticket & Cancellation Concerns",
+          "body": "Hi [Partner Name],\n\nI wanted to follow up immediately on our conversation today. I understand how frustrating the cancellation spike and support delays have been.\n\nHere's what I've done:\n• Escalated your support ticket with high priority - you'll hear back within 24 hours\n• Logged the cancellation policy display issue with our product team (ETA: 2 weeks)\n• Set up direct contact for any urgent issues\n\nI'll personally check in again on January 15th to ensure we're making progress.\n\nBest regards,\nBen",
+          "contentLinks": [
+            { "title": "Cancellation Policy Best Practices", "type": "Guide", "url": "#" }
+          ]
+        },
+        "structuredOutput": {
+          "callOutcome": "Escalation",
+          "partnerEngagement": "Frustrated",
+          "nextSteps": ["Follow up on bug fix by Jan 15", "Check partner satisfaction in 1 week"]
+        }
+      }
     },
     {
       "id": "call-003",
@@ -95,7 +140,30 @@
         "Follow up on Members-Only decision by Jan 17",
         "Share spring marketing calendar"
       ],
-      "coachingInsight": "Excellent use of seasonal timing in positioning. Reference this approach for other spring-focused properties."
+      "coachingInsight": "Excellent use of seasonal timing in positioning. Reference this approach for other spring-focused properties.",
+      "postCallData": {
+        "crmFields": [
+          { "field": "Sentiment", "value": "Positive", "selected": true },
+          { "field": "Last Contact", "value": "2025-01-12", "selected": true },
+          { "field": "Topics Discussed", "value": "VB, growth, promotion", "selected": true },
+          { "field": "VB Status", "value": "Enrolled - Premium Package", "selected": true },
+          { "field": "Next Action", "value": "Members-Only follow-up", "selected": true }
+        ],
+        "draftEmail": {
+          "to": "partner@grandplazahotel.com",
+          "subject": "Welcome to VB Premium! Your Spring Success Package",
+          "body": "Hi [Partner Name],\n\nGreat conversation today! I'm excited about your commitment to growth this spring.\n\nConfirming your VB Premium enrollment:\n• Active period: March 1 - May 31\n• Expected visibility lift: 35-45%\n• Investment: As discussed\n\nI'll also follow up on January 17th regarding the Members-Only deals program.\n\nAttached: Your VB calendar and spring marketing resources.\n\nHere's to a successful spring season!\n\nBest regards,\nBen",
+          "contentLinks": [
+            { "title": "VB Success Calendar", "type": "Document", "url": "#" },
+            { "title": "Spring Marketing Playbook", "type": "Seismic", "url": "#" }
+          ]
+        },
+        "structuredOutput": {
+          "callOutcome": "Closed - Won",
+          "partnerEngagement": "High",
+          "nextSteps": ["Send VB confirmation", "Follow up on Members-Only by Jan 17"]
+        }
+      }
     },
     {
       "id": "call-004",

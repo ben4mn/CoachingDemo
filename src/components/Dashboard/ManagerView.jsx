@@ -2,11 +2,13 @@ import { useState } from 'react'
 import MetricCard from '../Shared/MetricCard'
 import SentimentBadge from '../Shared/SentimentBadge'
 import QuartileBadge from '../Shared/QuartileBadge'
+import TeamMemberDetail from './TeamMemberDetail'
 import mockUsers from '../../data/mockUsers.json'
 
 export default function ManagerView() {
   const { teamMembers, teamStats } = mockUsers
   const [sortBy, setSortBy] = useState('risk')
+  const [expandedMember, setExpandedMember] = useState(null)
 
   const sortedMembers = [...teamMembers].sort((a, b) => {
     if (sortBy === 'risk') {
@@ -63,9 +65,12 @@ export default function ManagerView() {
 
             <div className="divide-y divide-gray-100">
               {sortedMembers.map((member) => (
+                <div key={member.id}>
                 <div
-                  key={member.id}
-                  className="p-4 hover:bg-gray-50 transition-colors cursor-pointer"
+                  onClick={() => setExpandedMember(expandedMember === member.id ? null : member.id)}
+                  className={`p-4 hover:bg-gray-50 transition-colors cursor-pointer ${
+                    expandedMember === member.id ? 'bg-gray-50' : ''
+                  }`}
                 >
                   <div className="flex items-center gap-4">
                     {/* Avatar and Name */}
@@ -130,6 +135,29 @@ export default function ManagerView() {
                       Last coached: {member.lastCoached}
                     </div>
                   </div>
+
+                  {/* Expand indicator */}
+                  <div className="flex items-center justify-center mt-2">
+                    <svg
+                      className={`w-5 h-5 text-gray-400 transition-transform ${
+                        expandedMember === member.id ? 'rotate-180' : ''
+                      }`}
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </div>
+                </div>
+
+                {/* Expanded Detail View */}
+                {expandedMember === member.id && (
+                  <TeamMemberDetail
+                    member={member}
+                    onClose={() => setExpandedMember(null)}
+                  />
+                )}
                 </div>
               ))}
             </div>
@@ -157,7 +185,15 @@ export default function ManagerView() {
                       </div>
                       <span className="font-medium text-red-900">{member.name}</span>
                     </div>
-                    <p className="text-xs text-red-700">{member.topCoachingItem}</p>
+                    <p className="text-xs text-red-700 mb-2">{member.topCoachingItem}</p>
+                    {/* Evidence snippet */}
+                    {member.coachingEvidence?.behaviorGaps?.[0]?.snippets?.[0] && (
+                      <div className="pl-2 border-l-2 border-red-200 mt-2">
+                        <p className="text-xs text-red-600 italic">
+                          "{member.coachingEvidence.behaviorGaps[0].snippets[0].quote.slice(0, 80)}..."
+                        </p>
+                      </div>
+                    )}
                   </div>
                 ))}
             </div>

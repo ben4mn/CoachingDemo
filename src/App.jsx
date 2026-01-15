@@ -4,11 +4,30 @@ import Navigation from './components/Shared/Navigation'
 import ICView from './components/Dashboard/ICView'
 import ManagerView from './components/Dashboard/ManagerView'
 import ConversationPanel from './components/Dashboard/ConversationPanel'
+import LiveCallMode from './components/Dashboard/LiveCallMode'
+import PostCallReview from './components/Dashboard/PostCallReview'
 import AtlasChat from './components/Chat/AtlasChat'
 
 function App() {
   const [activeTab, setActiveTab] = useState('my-coaching')
   const [chatOpen, setChatOpen] = useState(false)
+  const [liveCallActive, setLiveCallActive] = useState(true) // Start in live mode for demo
+  const [postCallMode, setPostCallMode] = useState(false)
+
+  const handleEndCall = () => {
+    setLiveCallActive(false)
+    setPostCallMode(true)
+  }
+
+  const handlePostCallComplete = () => {
+    setPostCallMode(false)
+    setActiveTab('conversations')
+  }
+
+  const handleBackToLiveCall = () => {
+    setPostCallMode(false)
+    setLiveCallActive(true)
+  }
 
   const renderContent = () => {
     switch (activeTab) {
@@ -18,6 +37,11 @@ function App() {
         return <ManagerView />
       case 'conversations':
         return <ConversationPanel />
+      case 'active-call':
+        if (postCallMode) {
+          return <PostCallReview onComplete={handlePostCallComplete} onBack={handleBackToLiveCall} />
+        }
+        return <LiveCallMode onEndCall={handleEndCall} />
       default:
         return <ICView />
     }
@@ -26,7 +50,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Header onOpenChat={() => setChatOpen(true)} />
-      <Navigation activeTab={activeTab} onTabChange={setActiveTab} />
+      <Navigation activeTab={activeTab} onTabChange={setActiveTab} liveCallActive={liveCallActive && activeTab === 'active-call'} />
 
       <main className={`transition-all duration-300 ${chatOpen ? 'mr-[420px]' : ''}`}>
         {renderContent()}

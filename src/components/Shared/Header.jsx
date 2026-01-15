@@ -1,5 +1,3 @@
-import { useState } from 'react'
-
 export default function Header({ onOpenChat }) {
   return (
     <header className="bg-[#000099] text-white px-6 py-4 flex items-center justify-between shadow-lg">

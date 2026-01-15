@@ -71,6 +71,32 @@
       "Excellent product knowledge - fewer clarification requests",
       "Consistent follow-up cadence"
     ],
+    "benchmarks": {
+      "openEndedQuestions": {
+        "label": "Open-ended questions per call",
+        "yours": 4.2,
+        "topPerformer": 6.1,
+        "trend": [3.8, 4.0, 3.9, 4.1, 4.2, 4.3, 4.2],
+        "insight": "Top performers ask 30% more open-ended questions in discovery",
+        "trainingContent": { "title": "Discovery Questions Masterclass", "url": "#" }
+      },
+      "vbPitchRate": {
+        "label": "VB pitch rate",
+        "yours": 62,
+        "topPerformer": 80,
+        "trend": [55, 58, 60, 61, 62, 64, 62],
+        "insight": "Introducing VB within first 5 minutes increases adoption by 34%",
+        "trainingContent": { "title": "VB Positioning Framework", "url": "#" }
+      },
+      "objectionResolution": {
+        "label": "Objection resolution rate",
+        "yours": 71,
+        "topPerformer": 85,
+        "trend": [65, 68, 70, 69, 71, 72, 71],
+        "insight": "The acknowledge-explore-resolve framework resolves 78% of objections",
+        "trainingContent": { "title": "Objection Handling Guide", "url": "#" }
+      }
+    },
     "quartile": 2,
     "lastCoached": "2025-01-10"
   },
@@ -115,7 +141,43 @@
       "quartile": 4,
       "lastCoached": "2025-01-08",
       "coachingStatus": "needs-attention",
-      "riskLevel": "high"
+      "riskLevel": "high",
+      "coachingEvidence": {
+        "recentCalls": [
+          { "id": "mj-call-1", "partner": "Alpine Retreat", "sentiment": "negative", "date": "2025-01-10" },
+          { "id": "mj-call-2", "partner": "Harbor View Inn", "sentiment": "negative", "date": "2025-01-09" },
+          { "id": "mj-call-3", "partner": "City Plaza Hotel", "sentiment": "neutral", "date": "2025-01-08" }
+        ],
+        "behaviorGaps": [
+          {
+            "behavior": "Objection handling",
+            "gap": "Moves past objections without fully resolving",
+            "snippets": [
+              { "quote": "Partner: 'The pricing seems high' - Marcus moved on without addressing", "callId": "mj-call-1", "timestamp": "5:23" },
+              { "quote": "Partner said 'I need to think about it' - no follow-up probe", "callId": "mj-call-2", "timestamp": "12:45" }
+            ],
+            "suggestion": "Use the acknowledge-explore-resolve framework",
+            "trainingContent": { "title": "Objection Handling Masterclass", "url": "#" }
+          },
+          {
+            "behavior": "Discovery depth",
+            "gap": "Jumps to solutions before fully understanding partner needs",
+            "snippets": [
+              { "quote": "Started VB pitch at 2 minutes without discovery questions", "callId": "mj-call-3", "timestamp": "2:10" }
+            ],
+            "suggestion": "Spend 5-7 minutes in discovery before presenting solutions",
+            "trainingContent": { "title": "Discovery Questions Framework", "url": "#" }
+          }
+        ],
+        "strengths": [
+          "Product knowledge - accurate information on all calls",
+          "Follow-up consistency - 100% next-step completion"
+        ],
+        "coachingHistory": [
+          { "date": "2025-01-08", "topic": "Relationship building", "outcome": "in-progress", "notes": "Working on empathy statements" },
+          { "date": "2024-12-15", "topic": "Call preparation", "outcome": "improved", "delta": "+8%" }
+        ]
+      }
     },
     {
       "id": "user-004",
@@ -199,7 +261,43 @@
       "quartile": 4,
       "lastCoached": "2025-01-09",
       "coachingStatus": "needs-attention",
-      "riskLevel": "high"
+      "riskLevel": "high",
+      "coachingEvidence": {
+        "recentCalls": [
+          { "id": "dk-call-1", "partner": "Pacific Beach Resort", "sentiment": "negative", "date": "2025-01-11" },
+          { "id": "dk-call-2", "partner": "Tokyo Tower Hotel", "sentiment": "negative", "date": "2025-01-09" },
+          { "id": "dk-call-3", "partner": "Seoul Grand Inn", "sentiment": "neutral", "date": "2025-01-07" }
+        ],
+        "behaviorGaps": [
+          {
+            "behavior": "Empathy and acknowledgment",
+            "gap": "Jumps to solutions without acknowledging partner frustration",
+            "snippets": [
+              { "quote": "Partner expressed frustration about support delays - David immediately offered workaround without acknowledgment", "callId": "dk-call-1", "timestamp": "3:15" },
+              { "quote": "Partner: 'This has been going on for weeks' - response focused on technical details", "callId": "dk-call-2", "timestamp": "7:30" }
+            ],
+            "suggestion": "Lead with empathy statements before problem-solving",
+            "trainingContent": { "title": "Empathetic Communication Guide", "url": "#" }
+          },
+          {
+            "behavior": "Proactive communication",
+            "gap": "Partners often surprised by issues they should have been warned about",
+            "snippets": [
+              { "quote": "Partner learned about rate change from guests, not from David", "callId": "dk-call-1", "timestamp": "11:20" }
+            ],
+            "suggestion": "Implement weekly proactive outreach for key accounts",
+            "trainingContent": { "title": "Proactive Account Management", "url": "#" }
+          }
+        ],
+        "strengths": [
+          "Technical knowledge - can explain complex features clearly",
+          "Problem resolution - once engaged, finds solutions quickly"
+        ],
+        "coachingHistory": [
+          { "date": "2025-01-09", "topic": "Partner empathy", "outcome": "in-progress", "notes": "Practicing acknowledgment phrases" },
+          { "date": "2024-12-20", "topic": "Time management", "outcome": "stable", "delta": "0%" }
+        ]
+      }
     },
     {
       "id": "user-008",

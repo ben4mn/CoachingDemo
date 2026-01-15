@@ -1,0 +1,165 @@
+{
+  "partner": {
+    "id": "partner-001",
+    "name": "Sunset Beach Resort & Spa",
+    "logo": "SB",
+    "region": "EMEA",
+    "accountTier": "Strategic",
+    "lastCall": "2025-01-08",
+    "currentVBAdoption": 45,
+    "bookingsYTD": 12450
+  },
+  "callContext": {
+    "type": "Quarterly Business Review",
+    "scheduledDuration": 45,
+    "objectives": [
+      "Review Q4 performance",
+      "Discuss VB enrollment opportunity",
+      "Address pricing concerns from last call"
+    ]
+  },
+  "stages": {
+    "discovery": {
+      "label": "Discovery",
+      "description": "Understanding partner needs and priorities",
+      "prompts": [
+        {
+          "id": "prompt-d1",
+          "text": "Ask about their competitive positioning challenges",
+          "reasoning": "Top performers ask 30% more open-ended questions in discovery phase",
+          "seismicContent": {
+            "title": "Discovery Questions Framework",
+            "type": "Training",
+            "url": "#"
+          },
+          "attribution": {
+            "sources": ["Top 20% performer analysis", "142 won deals"],
+            "confidence": 89
+          }
+        },
+        {
+          "id": "prompt-d2",
+          "text": "Explore their goals for the upcoming peak season",
+          "reasoning": "Partners who discuss seasonal goals are 2.3x more likely to adopt VB",
+          "seismicContent": {
+            "title": "Seasonal Planning Guide",
+            "type": "Document",
+            "url": "#"
+          },
+          "attribution": {
+            "sources": ["Seasonal deal patterns", "EMEA region data"],
+            "confidence": 84
+          }
+        }
+      ]
+    },
+    "value": {
+      "label": "Value Proposition",
+      "description": "Presenting solutions aligned to their needs",
+      "prompts": [
+        {
+          "id": "prompt-v1",
+          "text": "Connect VB benefits to their competitive concerns",
+          "reasoning": "Value framing around competition converts 45% better than feature-led pitches",
+          "seismicContent": {
+            "title": "VB Value Messaging",
+            "type": "Pitch Deck",
+            "url": "#"
+          },
+          "attribution": {
+            "sources": ["A/B pitch analysis", "Q4 deal outcomes"],
+            "confidence": 91
+          }
+        },
+        {
+          "id": "prompt-v2",
+          "text": "Share the ROI calculator showing potential revenue lift",
+          "reasoning": "Partners shown ROI data adopt 67% more often",
+          "seismicContent": {
+            "title": "VB ROI Calculator",
+            "type": "Tool",
+            "url": "#"
+          },
+          "attribution": {
+            "sources": ["Tool usage correlation", "Adoption tracking"],
+            "confidence": 87
+          }
+        }
+      ]
+    },
+    "objection": {
+      "label": "Objection Handling",
+      "description": "Addressing concerns and building confidence",
+      "prompts": [
+        {
+          "id": "prompt-o1",
+          "text": "Acknowledge the pricing concern before exploring root cause",
+          "reasoning": "The acknowledge-explore-resolve framework resolves 78% of pricing objections",
+          "seismicContent": {
+            "title": "Objection Handling Masterclass",
+            "type": "Training",
+            "url": "#"
+          },
+          "attribution": {
+            "sources": ["Objection resolution tracking", "Top performer patterns"],
+            "confidence": 86
+          }
+        },
+        {
+          "id": "prompt-o2",
+          "text": "Offer a pilot program to reduce perceived risk",
+          "reasoning": "Pilot offers convert hesitant partners at 3x the rate of standard proposals",
+          "seismicContent": {
+            "title": "Pilot Program Framework",
+            "type": "Document",
+            "url": "#"
+          },
+          "attribution": {
+            "sources": ["Pilot conversion data", "Risk reduction analysis"],
+            "confidence": 82
+          }
+        }
+      ]
+    },
+    "close": {
+      "label": "Close",
+      "description": "Securing commitment and next steps",
+      "prompts": [
+        {
+          "id": "prompt-c1",
+          "text": "Summarize agreed value points before asking for commitment",
+          "reasoning": "Value summaries before close increase commitment rate by 34%",
+          "seismicContent": {
+            "title": "Closing Techniques",
+            "type": "Training",
+            "url": "#"
+          },
+          "attribution": {
+            "sources": ["Close pattern analysis", "Deal outcome correlation"],
+            "confidence": 88
+          }
+        },
+        {
+          "id": "prompt-c2",
+          "text": "Propose specific next steps with dates",
+          "reasoning": "Calls with specific follow-up dates have 2.1x higher conversion",
+          "seismicContent": {
+            "title": "Follow-up Best Practices",
+            "type": "Guide",
+            "url": "#"
+          },
+          "attribution": {
+            "sources": ["Follow-up tracking", "Conversion analysis"],
+            "confidence": 90
+          }
+        }
+      ]
+    }
+  },
+  "partnerHistory": {
+    "previousCalls": 12,
+    "avgSentiment": "neutral",
+    "openObjections": ["Pricing concerns", "ROI uncertainty"],
+    "successfulTopics": ["Seasonal promotions", "Market data sharing"]
+  }
+}

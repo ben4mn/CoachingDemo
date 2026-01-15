@@ -1,5 +1,6 @@
 import MetricCard from '../Shared/MetricCard'
 import CoachingItem from '../Shared/CoachingItem'
+import BenchmarkCard from '../Shared/BenchmarkCard'
 import mockUsers from '../../data/mockUsers.json'
 
 export default function ICView() {
@@ -49,6 +50,28 @@ export default function ICView() {
           />
         </div>
       </div>
+
+      {/* Benchmarking Section */}
+      {user.benchmarks && (
+        <div className="mb-8">
+          <div className="mb-3 flex items-center justify-between">
+            <h2 className="text-sm font-semibold text-gray-500 uppercase tracking-wide">
+              How You Compare to Top Performers
+            </h2>
+            <span className="text-xs text-gray-500 flex items-center gap-1">
+              <svg className="w-3.5 h-3.5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+              </svg>
+              Based on top 20% in your role & region
+            </span>
+          </div>
+          <div className="grid md:grid-cols-3 gap-4">
+            <BenchmarkCard benchmark={user.benchmarks.openEndedQuestions} />
+            <BenchmarkCard benchmark={user.benchmarks.vbPitchRate} />
+            <BenchmarkCard benchmark={user.benchmarks.objectionResolution} />
+          </div>
+        </div>
+      )}
 
       <div className="grid lg:grid-cols-3 gap-6">
         {/* Coaching Opportunities - Main Column */}
